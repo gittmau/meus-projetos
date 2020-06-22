@@ -1,0 +1,581 @@
+/*Media Queries*/
+
+
+@media(min-width:360px){
+
+ #navbar{width:5%;margin:13px 320px;}
+
+ #btnFechar{margin:3px 325px;}
+
+ #amanda{margin:7px 75px;font-size:22pt;color:#fff;font-style: italic;}
+ #doces{font-family: ;font-size:11pt;position: absolute;padding:14px 10px;}
+
+ #menu ul{width:62%;height:600px}
+
+ #logo2{position: absolute;width:80%;margin:300px 18px}
+
+ #variedade{height:320px}
+
+ #amostra{height:4000px;margin:35px auto;display: flex;flex-direction: column;}
+
+ #encomenda{height:290px;margin-top:px}
+
+ #link_encomenda{width:30%;margin: auto;padding:10px 25px;margin-top:35px;}
+
+ #link_encomenda a{color:#fff}
+
+ #link_encomenda img{position: absolute;width:16%;margin-left:62%;margin-top:-5px;}
+
+ .produto{width:100%;height:500px;}
+
+ .img_produto{width:100%;}
+
+ .produto p{font-weight: 900;height:50px}
+
+ /*Seção Sobre------------------------------*/
+
+ #banner_sobre > p{font-size:78pt;padding:30px 15px;}
+ 
+ #sobre{width:100%;height:300px;}
+ 
+ .conteudo_sobre{width:98%;height:200px;margin:auto}
+ 
+ #perfil{width:200px!important}
+
+ #texto_foto > p{font-size:9.5pt;width:90%;margin:0 auto;padding:25px 5px;}
+
+ #foto > p{margin:40px 55px;}
+
+}
+
+
+
+@media(min-width:480px){
+
+    #navbar{margin:12px 430px;width:4%} 
+
+    #menu ul{transform: translateX(490px);}
+
+    #menu li{list-style: none;padding:5px 15px;}
+
+    #btnFechar{margin:-2px 437px;font-size:30pt;}
+
+    #logo1{position: absolute;width:11%;margin-left:3%;}
+
+    #logo2{position: absolute;width:45%;margin:125px 40px}
+
+    #amanda{margin:7px 85px;font-size:22pt;color:#fff;font-style: italic;}
+
+    #banner{height:250px;}
+
+    #texto_banner{padding:100px 5px;font-size:19pt;}
+
+    #variedade{height:250px}
+
+    #amostra{height:5300px;margin:35px auto;}
+
+    .produto{width:100%;height:660px;}
+    
+    #logo_rodape{width:45%;}
+
+
+    /*Seção Sobre------------------------------*/
+
+   
+
+ #banner_sobre > p{font-size:98pt;padding:40px 15px;}
+ 
+ .conteudo_sobre{width:100%;height:206px;margin:50px auto}
+ 
+ #sobre{width:100%;height:300px;}
+
+ #texto_foto > p{font-size:12pt;margin:5px -25px;padding:15px;}
+ 
+ 
+}
+
+
+@media(min-width:500px){   
+
+    #navbar{margin:12px 438px;width:4%} 
+
+    #logo1{position: absolute;width:11%;margin-left:3%;}
+
+    #logo2{position: absolute;width:50%;margin:300px 25px}
+
+    #btnFechar{margin:-2px 445px;}
+
+    #menu ul{transform: translateX(510px);}
+
+    #menu li{list-style: none;padding:25px 15px;}
+    
+    #texto_banner{padding:80px 5px;}
+
+    #variedade{height:250px}
+
+    #encomenda{height:280px;margin-top:px}
+
+    #amostra{width:95%;height:5300px;}
+
+    .produto{width:100%;height:660px;}
+
+    #logo_rodape{width:40%;display:block;margin:auto}
+
+
+    /*Seção Sobre-------------------------------*/
+    
+     .conteudo_sobre{width:98%;height:205px;background-color: #f4f4f4;display:flex;flex-direction:row;}
+
+    #sobre{width:100%;height:300px;}
+
+    #texto_foto > p{margin:10px -5px}
+    
+     #perfil{width:206px!important;}
+
+   
+}
+
+@media(min-width:580px){    
+
+
+    #logo1{position: absolute;width:10%;margin-left:3%;}
+    
+    #navbar{margin:12px 520px;width:3%} 
+
+    #btnFechar{margin:-2px 530px;font-size:30pt;}
+
+    #menu ul{transform: translateX(585px);}
+    
+     #logo2{position: absolute;width:45%;margin:250px 25px}
+     
+     #amostra{width:95%;height:6100px!important;}
+     
+     .produto{width:100%;height:760px;}
+     
+     #link_encomenda{width:20%;}
+     
+     #link_encomenda img{margin-top:-5px;}
+     
+     
+    
+    #logo_rodape{width:40%;display:block;margin:auto}
+    
+    /*Seção Sobre-----------------------*/
+    
+     #sobre{width:100%;height:300px;}
+     
+     #texto_foto > p{margin:15px -45px}
+     
+    
+
+}
+
+
+@media(min-width:630px){   
+
+    header{width:100%;height:40px;}
+
+
+    #navbar{visibility: hidden;}
+
+    #amanda{margin:10px 105px;font-size:20pt;}
+    #doces{font-family:;font-size:11pt;position: absolute;padding:12px 5px; }
+
+    #logo1{width:13%}
+
+    #logo2{display: none;}    
+
+    #menu ul{display: flex;flex-direction:row;margin:8px 325px!important;background-color:transparent;width:100%;transform: translateX(0px);}
+
+    #menu li{list-style: none;padding:8px 15px;text-transform: capitalize;border-bottom:none;font-size:12pt;}    
+
+    #menu a{color:#fad7ed}   
+
+    #banner{height:352px;margin-top:41px}
+
+    #texto_banner{padding:140px 10px;font-size:26pt;}
+
+    #variedade{width:100%;height:300px;box-shadow:none;margin:auto;margin-top:55px!important;border-radius:0px;}
+
+    #titulo_variedade{font-size:25pt;text-align: center;padding:0px;}
+
+    #texto_variedade{padding:30px 15px;line-height:1.5;text-align:justify;font-size:13pt;}
+
+    .produto{width:25%;height:250px!important;background-color: #fff;display: block;margin:0 auto;}
+
+    #amostra{width:95%;height:600px!important;margin:2px auto;display: flex;flex-direction:row;flex-wrap:wrap;}
+
+    .img_produto{width:100%;margin-left:1%;}
+
+    #encomenda{box-shadow: none;}
+
+    #titulo_encomenda{font-family:Poppins;font-size:25pt;padding:10px 20px;color:#EE6363;text-align: center;}
+
+    #texto_encomenda{padding:20px 0px;color:#333;line-height:1.5;text-align:center;font-size:13pt;}
+
+    #link_encomenda{border: none;background-color:#40c351;width:20%;margin: auto;color:#fff;border-radius:20px;box-shadow:2px 4px 6px #555;margin-top: 20px;z-index:2;padding:10px 20px;font-family:calibri;position: relative;}
+
+    #link_encomenda img{position: absolute;width:15%;margin-left:65%;margin-top:-5px;}
+
+    #contatos{font-size:28pt}
+    #endereco,#email,#telefone,#zap{font-size:16pt}
+
+    #logo_rodape{width:20%;display:block;margin:auto}
+
+    #fim{font-size:11pt}
+
+
+    /*Seção Sobre------------------------------*/
+
+    #menu ul{display: flex;flex-direction:row;margin:30px 305px;}
+    
+    #banner_sobre > p{font-size:10em;padding:50px 15px;word-spacing:25px}
+    
+    .conteudo_sobre{width:90%;height:205px;background-color: #f4f4f4;display:flex;flex-direction:row;}
+
+    #sobre{width:100%;height:320px;}
+
+    #texto_foto > p{margin:25px -45px;font-size:12pt}
+
+}
+
+
+@media(min-width:768px){
+
+  
+    header{width:100%;height:40px;}
+
+
+    #navbar{visibility: hidden;}
+
+    #amanda{margin:10px 110px;font-size:20pt;}
+    #logo1{width:10%}
+
+    #logo2{display: none;}    
+
+    #menu ul{display: flex;flex-direction:row;margin:5px 400px!important;background-color:transparent;width:100%;height:1px;transform: translateX(0px);}
+
+    #menu li{list-style: none;padding:8px 15px;text-transform: capitalize;border-bottom:none;font-size:12pt;}    
+
+    #menu a{color:#fad7ed}   
+
+    #banner{height:350px;margin-top:41px}
+
+    #texto_banner{padding:110px 10px;font-size:26pt;}
+
+    #variedade{width:100%;height:250px;box-shadow:none;margin:auto;margin-top:55px!important;border-radius:0px;}
+
+    #titulo_variedade{font-size:30pt;text-align: center;padding:0px;}
+
+    #texto_variedade{padding:30px 45px;line-height:1.5;text-align:justify;font-size:12pt;}
+
+    .produto{width:25%;height:250px!important;background-color:#fff;display: block;margin:0 auto;}
+    
+    .produto p{font-size:10pt;text-align:center}
+
+    #amostra{width:90%;height:550px!important;margin:2px auto;display: flex;flex-direction:row;flex-wrap:wrap}
+
+    .img_produto{width:95%;margin:auto}
+
+    #encomenda{box-shadow: none;height:300px}
+
+    #titulo_encomenda{font-family:Poppins;font-size:30pt;padding:10px 20px;color:#EE6363;text-align: center;}
+
+    #texto_encomenda{padding:30px 45px;color:#333;line-height:1.5;text-align:justify;font-size:12pt;}
+
+    #link_encomenda{border: none;background-color:#40c351;width:15%;margin: auto;color:#fff;border-radius:20px;box-shadow:2px 4px 6px #555;margin-top: 20px;z-index:2;padding:10px 20px;font-family:calibri;position: relative;}
+
+    #link_encomenda img{position: absolute;width:15%;margin-left:65%;margin-top:-5px;}
+
+    #contatos{font-size:28pt}
+    #endereco,#email,#telefone,#zap{font-size:16pt}
+
+    #logo_rodape{width:25%;display:block;margin:auto}
+
+    #fim{font-size:11pt}
+
+    /*Seção Sobre-------------------------------*/
+    
+    .conteudo_sobre{width:80%;height:205px;}
+
+    #texto_foto > p{font-size:12pt;margin:25px -45px}
+    
+    #perfil{width:70%;}
+
+}
+
+@media(min-width:950px){
+
+    header{width:100%;height:50px;}
+
+    #navbar{visibility: hidden;}
+
+    #amanda{margin:10px 140px;font-size:20pt;}
+    #logo1{width:10%}
+
+    #logo2{display: none;}
+    
+
+    #menu ul{display: flex;flex-direction:row;margin:5px 525px;background-color:transparent;width:100%;height:1px;transform: translateX(0px);}
+
+    #menu li{list-style: none;padding:8px 25px;text-transform: capitalize;border-bottom:none;font-size:12pt;}
+
+    #menu li:hover{text-decoration:overline;transition:0.8s;border-radius:25px;font-weight: 900;}
+
+    #menu a{color:#fad7ed}
+
+   
+
+    #banner{height:350px;margin-top:51px}
+ 
+    #texto_banner{padding:100px 10px;font-size:26pt;}
+
+    #variedade{width:100%;height:300px;box-shadow:none;margin:auto;margin-top:55px!important;border-radius:0px;}
+
+    #titulo_variedade{font-size:38pt;text-align: center;padding:0px;}
+
+    #texto_variedade{padding:30px 20px;line-height:1.5;text-align:center;font-size:16pt;}
+
+    .produto{width:25%;height:400px!important;background-color: #fff;display: block;margin:0 auto;}
+
+    #amostra{height:750px!important;margin:2px auto;display: flex;flex-direction:row;flex-wrap:wrap}
+
+    .img_produto{width:95%;margin:auto;}
+
+    #encomenda{box-shadow: none;}
+
+    #titulo_encomenda{font-family:Poppins;font-size:38pt;padding:10px 20px;color:#EE6363;text-align: center;}
+
+    #texto_encomenda{padding:20px 0px;color:#333;line-height:1.5;text-align:center;font-size:16pt;}
+
+    #link_encomenda{border: none;background-color:#40c351;width:15%;margin: auto;color:#fff;border-radius:20px;box-shadow:2px 4px 6px #555;margin-top: 20px;z-index:2;padding:10px 20px;font-family:calibri;position: relative;}
+
+    #link_encomenda img{position: absolute;width:15%;margin-left:65%;margin-top:-5px;}
+
+    #contatos{font-size:28pt}
+    #endereco,#email,#telefone,#zap{font-size:16pt}
+
+   #logo_rodape{width:20%;display:block;margin:auto}
+
+    #fim{font-size:16pt}
+    
+    /*Seção Sobre----------------------------------*/
+     
+     
+   .conteudo_sobre{width:80%;height:205px;}
+   
+   #texto_foto > p{font-size:16pt;margin:0px -65px}
+     
+    #perfil{width:58%;}
+
+    
+}    
+
+
+
+@media(min-width:1024px){
+
+    header{width:100%;height:55px;background:rgba(233, 30, 99,0.9)}
+
+
+    #navbar{visibility: hidden;}
+
+    #amanda{margin:10px 140px;font-size:20pt;}
+    
+    #logo1{width:10%}
+
+    #logo2{display: none;}    
+
+    #menu ul{display: flex;flex-direction:row;margin:10px 545px!important;background-color:transparent;width:100%;height:1px;transform: translateX(0px);}
+
+    #menu li{list-style: none;padding:8px 25px;text-transform: capitalize;border-bottom:none;font-size:12pt;}
+
+    #menu a{color:#fad7ed}
+
+    #banner{height:352px;margin-top:56px}
+
+    #texto_banner{padding:120px 10px;font-size:25pt;opacity:}
+
+    #variedade{width:100%;height:300px;box-shadow:none;margin:auto;margin-top:55px!important;border-radius:0px;}
+
+    #titulo_variedade{font-size:38pt;text-align: center;padding:0px;}
+
+   #texto_variedade{padding:30px 90px;line-height:1.5;text-align:justify;font-size:14pt;}
+
+    .produto{height:555px;background-color: #fff;display: block;margin:0 auto;}
+
+    #amostra{width:85%;height:405px;margin:2px auto;display: flex;flex-direction:row;}
+
+    .img_produto{width:95%;margin:auto}
+
+    #encomenda{box-shadow: none;height:350px}
+
+    #titulo_encomenda{font-family:Poppins;font-size:38pt;padding:10px 20px;color:#EE6363;text-align: center;}
+
+    #texto_encomenda{padding:30px 90px;color:#333;line-height:1.5;text-align:center;font-size:14pt;}
+
+    #link_encomenda{border: none;width:12%;margin:20px auto;padding:10px 15px;}
+
+    #link_encomenda img{position: absolute;width:15%;margin-left:65%;margin-top:-5px;}
+    
+    footer{height:300px}
+    
+    #contatos{text-align:left;padding:15px 200px;font-family:Poppins;font-size:20pt;color:#fff}
+    
+   #endereco,#email,#telefone,#zap{text-align:left;padding:15px 200px;font-family:Lato;color:#fff;font-size:12pt}
+
+    #logo_rodape{width:20%;position:absolute;margin:50px 650px}
+
+    #fim{font-size:11pt}
+    
+    #autor{text-align:left;padding:5px}
+
+    /*Seção Sobre-----------------------*/
+    
+  
+   .conteudo_sobre{width:60%;height:205px;}
+   
+
+    
+    #banner_sobre > p{font-family:words;color:#fff;text-align: center;padding:90px 5px;font-size:100pt;opacity:0.6}
+
+    #texto_foto > p{text-align:left;font-size:12pt;padding:30px;}
+    
+    #footer_sobre{height:300px;}
+   
+
+
+}
+
+
+
+@media(min-width:1280px){
+
+    header{width:100%;height:50px;background:rgba(233, 30, 99,0.9)}
+
+    #amanda{margin:10px 148px;font-size:20pt;}
+
+    #logo1{width:8%}
+
+    #menu ul{display: flex;flex-direction:row;margin:10px 740px;}
+
+    #menu li{list-style: none;padding:5px 25px}
+
+   
+
+    #banner{height:352px;margin-top:51px}
+    
+    #texto_banner{font-size:25pt;padding:140px 0px}
+
+    #texto_variedade{padding:30px 120px;}
+
+    #encomenda{box-shadow: none;margin-top:px;}
+
+    #texto_encomenda{padding:30px 120px;}
+
+    #link_encomenda{border: none;width:10%;}
+
+    #link_encomenda img{margin-left:65%;margin-top:-3px;}
+
+    #amostra{width:85%;height:955px!important;}
+
+    
+    
+     footer{height:300px}
+    
+    #contatos{text-align:left;padding:15px 200px;font-family:Poppins;font-size:20pt;color:#fff}
+    
+   #endereco,#email,#telefone,#zap{text-align:left;padding:15px 200px;font-family:Lato;color:#fff;font-size:12pt}
+
+    #logo_rodape{width:15%;position:absolute;margin:50px 650px}
+
+    #fim{font-size:11pt}
+    
+    #autor{text-align:left;padding:5px}
+
+
+    /*Seção Sobre-------------------------------*/
+    
+    .conteudo_sobre{width:50%;height:205px;}
+
+    #texto_foto > p{text-align:left;font-size:12pt;margin:45px -65px;padding:5px}
+}
+
+
+@media(min-width:1360px){
+
+    #amanda{margin:10px 160px;}
+    
+    #texto_banner{font-size:30pt;padding:125px}
+    
+    .img_produto{width:95%;margin:auto}
+    
+    footer{height:300px!important}
+}
+
+
+@media(min-width:1366px){
+    
+   #texto_banner{font-size:30pt;padding:100px}
+}
+
+
+
+@media(min-width:1920px){
+    
+   header{width:100%;height:90px;}
+     
+   
+      
+   #amanda{margin:40px 240px;font-size:30pt;}
+      
+   #menu ul{display: flex;flex-direction:row;margin:40px 960px!important;}
+
+   #menu li{list-style: none;padding:5px 25px;font-size:18pt;}
+   
+   #banner{height:652px;margin-top:91px}
+     
+   #texto_banner{font-size:55pt;padding:200px 0px}
+   
+   #texto_variedade{font-size:18pt;text-align:center}
+   
+   #amostra{width:90%;height:1450px!important;}
+   
+   .img_produto{width:85%;margin-left:5%;}
+   
+   .produto p{font-size:16pt}
+   
+   #texto_encomenda{font-size:18pt}
+   
+   #link_encomenda{border: none;width:6%;margin:20px auto;padding:10px 15px;}
+   
+   
+   
+    footer{height:400px!important}
+    
+     #contatos{padding:15px 360px;font-size:30pt;}
+    
+    #endereco,#email,#telefone,#zap{padding:15px 360px;font-size:20pt}
+    
+    #logo_rodape{margin:50px 1100px}
+    
+     #fim{font-size:14pt}
+    
+    #autor{text-align:left;padding:5px;font-size:15pt}
+    
+    
+    /*Seção Sobre----------------------*/
+    
+    .conteudo_sobre{width:40%;height:215px;}
+    
+    #texto_foto > p{text-align:;font-size:16pt;margin:10px -65px;padding:5px}
+   
+   
+   
+   
+    
+}
+
+
+
+
